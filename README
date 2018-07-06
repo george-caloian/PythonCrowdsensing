@@ -1,0 +1,25 @@
+Student : George Caloian
+Grupa : 332
+Seria : CC
+
+Arhitectura sistemelor de calcul
+
+Tema 1 - Crowdsensing
+
+In cadrul acestei teme am efectuat doar sincronizarea
+deviceurilor.
+
+Am pornit de la implementarea laboratorului cu numarul 3
+in ceea ce priveste utilizarea barierelor.
+
+Setup_devices
+	in cadrul acestei functii asignez bariera tuturor
+deviceurilor
+
+Assign_script
+	in cadrul acestei functii apendez scriptul la lista
+in cazul in care exista, in caz contrar se seteaza eventul
+
+Run
+	se realzieaza sincronizarea printr-un wait al barierei
+
